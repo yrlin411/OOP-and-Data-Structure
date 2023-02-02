@@ -1,0 +1,333 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		729E0EE4263BFD1C003099F2 /* object.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 729E0EE2263BFD1C003099F2 /* object.cpp */; };
+		729E0EE9263C1B25003099F2 /* item.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 729E0EE7263C1B25003099F2 /* item.cpp */; };
+		729E0EED263C2523003099F2 /* gameCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 729E0EEB263C2523003099F2 /* gameCharacter.cpp */; };
+		729E0EF1263C2AA3003099F2 /* player.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 729E0EEF263C2AA3003099F2 /* player.cpp */; };
+		729E0EF6263C2B6E003099F2 /* monster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 729E0EF4263C2B6E003099F2 /* monster.cpp */; };
+		729E0EFB263C2BE7003099F2 /* npc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 729E0EF9263C2BE7003099F2 /* npc.cpp */; };
+		729E0F00263C2C5D003099F2 /* room.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 729E0EFE263C2C5D003099F2 /* room.cpp */; };
+		729E0F04263C2CD2003099F2 /* Dungeon.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 729E0F02263C2CD2003099F2 /* Dungeon.cpp */; };
+		729E0F08263D6A02003099F2 /* Record.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 729E0F06263D6A02003099F2 /* Record.cpp */; };
+		729E0F0C263E6400003099F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 729E0F0B263E6400003099F2 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		729E0ED5263BE6E7003099F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		729E0ED7263BE6E7003099F2 /* hw_Dungeon_109550069 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hw_Dungeon_109550069; sourceTree = BUILT_PRODUCTS_DIR; };
+		729E0EE2263BFD1C003099F2 /* object.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = object.cpp; sourceTree = "<group>"; };
+		729E0EE3263BFD1C003099F2 /* object.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = object.hpp; sourceTree = "<group>"; };
+		729E0EE7263C1B25003099F2 /* item.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = item.cpp; sourceTree = "<group>"; };
+		729E0EE8263C1B25003099F2 /* item.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = item.hpp; sourceTree = "<group>"; };
+		729E0EEB263C2523003099F2 /* gameCharacter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = gameCharacter.cpp; sourceTree = "<group>"; };
+		729E0EEC263C2523003099F2 /* gameCharacter.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = gameCharacter.hpp; sourceTree = "<group>"; };
+		729E0EEF263C2AA3003099F2 /* player.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = player.cpp; sourceTree = "<group>"; };
+		729E0EF0263C2AA3003099F2 /* player.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = player.hpp; sourceTree = "<group>"; };
+		729E0EF4263C2B6E003099F2 /* monster.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = monster.cpp; sourceTree = "<group>"; };
+		729E0EF5263C2B6E003099F2 /* monster.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = monster.hpp; sourceTree = "<group>"; };
+		729E0EF9263C2BE7003099F2 /* npc.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = npc.cpp; sourceTree = "<group>"; };
+		729E0EFA263C2BE7003099F2 /* npc.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = npc.hpp; sourceTree = "<group>"; };
+		729E0EFE263C2C5D003099F2 /* room.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = room.cpp; sourceTree = "<group>"; };
+		729E0EFF263C2C5D003099F2 /* room.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = room.hpp; sourceTree = "<group>"; };
+		729E0F02263C2CD2003099F2 /* Dungeon.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Dungeon.cpp; sourceTree = "<group>"; };
+		729E0F03263C2CD2003099F2 /* Dungeon.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Dungeon.hpp; sourceTree = "<group>"; };
+		729E0F06263D6A02003099F2 /* Record.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Record.cpp; sourceTree = "<group>"; };
+		729E0F07263D6A02003099F2 /* Record.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Record.hpp; sourceTree = "<group>"; };
+		729E0F0B263E6400003099F2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		729E0ED4263BE6E7003099F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		729E0ECE263BE6E7003099F2 = {
+			isa = PBXGroup;
+			children = (
+				729E0ED9263BE6E7003099F2 /* hw_Dungeon_109550069 */,
+				729E0ED8263BE6E7003099F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		729E0ED8263BE6E7003099F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				729E0ED7263BE6E7003099F2 /* hw_Dungeon_109550069 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		729E0ED9263BE6E7003099F2 /* hw_Dungeon_109550069 */ = {
+			isa = PBXGroup;
+			children = (
+				729E0F02263C2CD2003099F2 /* Dungeon.cpp */,
+				729E0F03263C2CD2003099F2 /* Dungeon.hpp */,
+				729E0EE2263BFD1C003099F2 /* object.cpp */,
+				729E0EE3263BFD1C003099F2 /* object.hpp */,
+				729E0EE7263C1B25003099F2 /* item.cpp */,
+				729E0EE8263C1B25003099F2 /* item.hpp */,
+				729E0EEB263C2523003099F2 /* gameCharacter.cpp */,
+				729E0EEC263C2523003099F2 /* gameCharacter.hpp */,
+				729E0EEF263C2AA3003099F2 /* player.cpp */,
+				729E0EF0263C2AA3003099F2 /* player.hpp */,
+				729E0EF4263C2B6E003099F2 /* monster.cpp */,
+				729E0EF5263C2B6E003099F2 /* monster.hpp */,
+				729E0EF9263C2BE7003099F2 /* npc.cpp */,
+				729E0EFA263C2BE7003099F2 /* npc.hpp */,
+				729E0EFE263C2C5D003099F2 /* room.cpp */,
+				729E0EFF263C2C5D003099F2 /* room.hpp */,
+				729E0F06263D6A02003099F2 /* Record.cpp */,
+				729E0F07263D6A02003099F2 /* Record.hpp */,
+				729E0F0B263E6400003099F2 /* main.cpp */,
+			);
+			path = hw_Dungeon_109550069;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		729E0ED6263BE6E7003099F2 /* hw_Dungeon_109550069 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 729E0EDE263BE6E7003099F2 /* Build configuration list for PBXNativeTarget "hw_Dungeon_109550069" */;
+			buildPhases = (
+				729E0ED3263BE6E7003099F2 /* Sources */,
+				729E0ED4263BE6E7003099F2 /* Frameworks */,
+				729E0ED5263BE6E7003099F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hw_Dungeon_109550069;
+			productName = hw_Dungeon_109550069;
+			productReference = 729E0ED7263BE6E7003099F2 /* hw_Dungeon_109550069 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		729E0ECF263BE6E7003099F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					729E0ED6263BE6E7003099F2 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 729E0ED2263BE6E7003099F2 /* Build configuration list for PBXProject "hw_Dungeon_109550069" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 729E0ECE263BE6E7003099F2;
+			productRefGroup = 729E0ED8263BE6E7003099F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				729E0ED6263BE6E7003099F2 /* hw_Dungeon_109550069 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		729E0ED3263BE6E7003099F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				729E0EF1263C2AA3003099F2 /* player.cpp in Sources */,
+				729E0F08263D6A02003099F2 /* Record.cpp in Sources */,
+				729E0EED263C2523003099F2 /* gameCharacter.cpp in Sources */,
+				729E0F00263C2C5D003099F2 /* room.cpp in Sources */,
+				729E0EF6263C2B6E003099F2 /* monster.cpp in Sources */,
+				729E0F04263C2CD2003099F2 /* Dungeon.cpp in Sources */,
+				729E0EFB263C2BE7003099F2 /* npc.cpp in Sources */,
+				729E0EE9263C1B25003099F2 /* item.cpp in Sources */,
+				729E0F0C263E6400003099F2 /* main.cpp in Sources */,
+				729E0EE4263BFD1C003099F2 /* object.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		729E0EDC263BE6E7003099F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		729E0EDD263BE6E7003099F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		729E0EDF263BE6E7003099F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		729E0EE0263BE6E7003099F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		729E0ED2263BE6E7003099F2 /* Build configuration list for PBXProject "hw_Dungeon_109550069" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				729E0EDC263BE6E7003099F2 /* Debug */,
+				729E0EDD263BE6E7003099F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		729E0EDE263BE6E7003099F2 /* Build configuration list for PBXNativeTarget "hw_Dungeon_109550069" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				729E0EDF263BE6E7003099F2 /* Debug */,
+				729E0EE0263BE6E7003099F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 729E0ECF263BE6E7003099F2 /* Project object */;
+}
